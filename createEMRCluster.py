@@ -5,8 +5,8 @@ __author__ = 'vikram'
 connection = boto3.client(
     'emr',
     region_name='us-east-1',
-    aws_access_key_id='AKIAI4FSPVWYUJGTPSQA',
-    aws_secret_access_key='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',
+    aws_access_key_id='',
+    aws_secret_access_key='',
 )
 
 cluster_id = connection.run_job_flow(
